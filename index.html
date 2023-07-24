@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legal Solutions</title>
+
+    <!-- DaisyUI link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts : EB Garamond  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Link -->
+    <script
+      src="https://kit.fontawesome.com/0cc9b33cd8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Tailwind Costomization Area -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Font Style  Css-->
+    <style>
+      .font-EBgaramond {
+        font-family: "EB Garamond", serif;
+      }
+    </style>
+  </head>
+
+  <body class="font-EBgaramond">
+    <!-- Header Section -->
+
+    <header class="container mx-auto   ">
+      <div class="navbar bg-base-100 ">
+        <div class="navbar-start">
+          <!-- <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+          </div> -->
+
+          <img src="./images/logo2.png" alt="" />
+
+          <a class="btn btn-ghost normal-case text-xl"></a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home <i class="fa-solid fa-angle-right"></i></a></li>
+            <li><a>Services<i class="fa-solid fa-angle-right"></i></a></li>
+            <li><a>Cases<i class="fa-solid fa-angle-right"></i></a></li>
+            <li><a>Blog<i class="fa-solid fa-angle-right"></i></a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn btn-wide rounded-lg bg-[#B68C5A] text-white">Free Consultation</a>
+        </div>
+      </div>
+    </header>
+  </body>
+
+  <footer></footer>
+</html>
